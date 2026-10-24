@@ -1,10 +1,9 @@
 // the use of AI is indicated by the "!" sign
 
-let x = 200;
-let y = 200;
+let x = 400;
+let y = 400;
 let targetX = 0;
 let targetY = 0;
-let waveSeed; 
 
 function setup() {
   createCanvas(800, 500);
