@@ -47,7 +47,7 @@ function draw() {
 
     if (dist(mouseX, mouseY, x, y) > 100) {
       //follow mouse slowly
-      x = lerp(x, mouseX, 0.02);
+      x = lerp(x, mouseX, 0.01);
       y = lerp(y, mouseY, 0.01);
   } 
 
